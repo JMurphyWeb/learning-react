@@ -1,22 +1,37 @@
 import React from 'react'
 
 const style = {
-  backgroundColor: '#ff5a5f',
   color: 'white',
-  display: 'inline',
-  height: '15px',
+    height: '25px',
   padding: '4px',
-  listStyleType: 'none'
+
 }
 const btnStyle = {
   border: '0px',
   backgroundColor: 'inherit'
 }
+const liStyle = {
+  backgroundColor: '#ff5a5f',
+  border: '1px solid #ffa6a8',
+  borderRadius: '4px',
+  height: '25px',
+  display: 'inline',
+  float: 'left',
+  padding: '4px',
+  margin: '-10px 2px 2px 2px'
+}
 
 class Tag extends React.Component {
   render () {
     return (
-      <span style={style}>{this.props.content}<button style={btnStyle} onClick={this.props.remove.bind(null, this.props.index)}>X</button></span>
+      <li style={liStyle}>
+        <span contentEditable={true} onKeyDown={this.props.enterKeyFunc} style={style}>
+          {this.props.content}
+        </span>
+        <button style={btnStyle} onClick={this.props.remove.bind(null, this.props.index)}>
+          X
+        </button>
+      </li>
     )
   }
 }
