@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1% 1%;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(238, 88, 111);
+  height: auto;
+  font-family: arial;
+  color: white
+}
+
+li:hover {
+  background-color: yellow;
+}
