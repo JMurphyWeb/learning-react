@@ -5,17 +5,24 @@ class Navbar extends React.Component {
   constructor () {
     super()
     this.state = {
-      headings: ['home', 'about', 'gallery', 'contact']
+      focus: 0
     }
+    this.changeFocus = this.changeFocus.bind(this)
+  }
+
+  changeFocus (i) {
+    this.setState({focus: i})
+    console.log(this.state)
   }
 
   render () {
     return (
       <div className='nav'>
         <ul>
-          {this.state.headings.map((heading, i) => {
+          {this.props.headings.map((heading, i) => {
+            const className = (this.state.focus === i) ? 'focus' : ''
             return (
-              <Heading name={heading} key={i} />
+              <Heading className={className} name={heading} key={i} i={i} changeFocus={this.changeFocus} focus={this.focus} />
             )
           })}
         </ul>

@@ -11,8 +11,7 @@ class NavbarParent extends React.Component {
   render () {
     return (
       <div>
-        <Navbar />
-        <p>Currently on something page</p>
+        <Navbar headings={['home', 'about', 'gallery', 'contact']} />
       </div>
     )
   }

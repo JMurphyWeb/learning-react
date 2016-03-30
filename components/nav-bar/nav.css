@@ -6,7 +6,8 @@
 li {
   list-style-type: none;
   display: inline-block;
-  padding: 1% 1%;
+  padding: 10px 1%;
+  color: white;
 }
 
 .nav {
@@ -16,12 +17,19 @@ li {
   left: 0px;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(238, 88, 111);
+  background-color: #ee586f;
   height: auto;
   font-family: arial;
-  color: white
+  color: white;
 }
 
 li:hover {
-  background-color: yellow;
+  background-color: #fa899b;
+}
+
+.focus {
+  background-color: #fabbc5;
+}
+.focus:hover {
+  background-color: #fabbc5;
 }
