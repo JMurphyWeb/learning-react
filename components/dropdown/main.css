@@ -1,0 +1,48 @@
+
+/*Dropdown heading css start*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.show {
+  transform: scale(1,1);
+  transition: all 200ms ease;
+}
+
+.hide {
+  transform: scale(1,0);
+  transition: all 200ms ease;
+}
+.dropdown {
+  float: left;
+}
+.dropdownli {
+  padding: 8px 15px;
+  border-bottom: 1px solid #DFDBDB;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+.dropdownli:hover {
+  color: #2a8498;
+}
+.dropdown-cover {
+  width: auto;
+  display: inline-block;
+  padding: 8px 8px 8px 15px;
+  background-color: #2a8498;
+  border: #2a8498 solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.dropdown-cover:hover {
+  background-color: white;
+  color: #2a8498;
+}
+.arrowDown {
+  font-size: 7px;
+  display: inline;
+  padding-left: 8px;
+}
