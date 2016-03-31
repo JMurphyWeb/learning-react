@@ -1,12 +1,10 @@
 {
-  "name": "dropdown",
+  "name": "search-bar",
   "version": "1.0.0",
-  "description": "Aim is to build a simple dropdown button as a tool to learn react",
-  "main": "app.js",
-  "dependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline",
-    "build": "webpack --progress"
+    "dev": "webpack-dev-server --hot --inline"
   },
   "keywords": [],
   "author": "",

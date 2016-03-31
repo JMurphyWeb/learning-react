@@ -2,6 +2,14 @@
 
 Aim is to build a simple nav bar as a tool to learn react
 
+## Current Status
+
+focused tab is stored using state
+![]('./screen-shots/1.png')
+
+hover over a different tab changes color
+![]('./screen-shots/2.png')
+
 
 Key Features:
  - [x] Active tab should change colour
