@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Searchbar from './Searchbar.jsx'
+import SearchbarParent from './SearchbarParent.jsx'
 
 const container = document.getElementById('container')
 
 ReactDOM.render(
   <div>
-    <Searchbar />
+    <SearchbarParent />
   </div>
   ,
   container

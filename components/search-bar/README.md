@@ -8,6 +8,7 @@ Key Features:
  - [ ] Enter press or click icon to trigger search
  - [ ] Arrow buttons can navigate autocomplete
  - [ ] Another click anywhere on document will hide autocomplete dropdown
+ - [ ] Make use of spread operator
 
 Stretch Goals:
  - Server-side support

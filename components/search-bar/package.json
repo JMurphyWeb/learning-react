@@ -2,9 +2,10 @@
   "name": "search-bar",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline"
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress"
   },
   "keywords": [],
   "author": "",
